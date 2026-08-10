@@ -32,8 +32,8 @@ A maior parte do que está aqui nasceu de aula ou de curiosidade. Alguns viraram
 
 ### GitHub
 
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=zAlanRibeiro&show_icons=true&hide_border=true&theme=github_dark&hide_title=true&include_all_commits=true" />
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zAlanRibeiro&layout=compact&hide_border=true&theme=github_dark&langs_count=6" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zAlanRibeiro&theme=github_dark" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zAlanRibeiro&theme=github_dark" />
 
 ### Contato
 
