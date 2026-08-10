@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 368" width="760" height="368" role="img" aria-labelledby="t d">
   <title id="t">Terminal de Alan Doyle Costa Ribeiro</title>
   <desc id="d">Um terminal animado que digita whoami, cat stack.txt e ls projetos/, mostrando nome, tecnologias e projetos.</desc>
 
@@ -116,10 +116,21 @@
     <g class="win w5"><rect class="cur blink" x="45.2" y="204" width="9.6" height="20"/></g>
   </g>
 
-  <!-- saida 3 -->
-  <text class="mono out reveal o6" x="26" y="252" textLength="355.2" lengthAdjust="spacing">ProjetosNITTRANS  JogoTransito  Studo</text>
+  <!-- saida 3: em tres colunas, preenchidas de cima para baixo como o ls faz -->
+  <g class="reveal o6">
+    <text class="mono out" x="26"    y="252" textLength="192"   lengthAdjust="spacing">CentralMonitoramento</text>
+    <text class="mono out" x="256.4" y="252" textLength="115.2" lengthAdjust="spacing">JogoTransito</text>
+    <text class="mono out" x="486.8" y="252" textLength="134.4" lengthAdjust="spacing">Stellar-Legacy</text>
+
+    <text class="mono out" x="26"    y="278" textLength="105.6" lengthAdjust="spacing">DataStructs</text>
+    <text class="mono out" x="256.4" y="278" textLength="201.6" lengthAdjust="spacing">OtimizadorDeImagensAI</text>
+    <text class="mono out" x="486.8" y="278" textLength="48"    lengthAdjust="spacing">Studo</text>
+
+    <text class="mono out" x="26"    y="304" textLength="86.4"  lengthAdjust="spacing">DocPocket</text>
+    <text class="mono out" x="256.4" y="304" textLength="153.6" lengthAdjust="spacing">ProjetosNITTRANS</text>
+  </g>
 
   <!-- prompt ocioso -->
-  <text class="mono pr reveal p7" x="26" y="292">$</text>
-  <g class="win w7"><rect class="cur blink" x="45.2" y="276" width="9.6" height="20"/></g>
+  <text class="mono pr reveal p7" x="26" y="344">$</text>
+  <g class="win w7"><rect class="cur blink" x="45.2" y="328" width="9.6" height="20"/></g>
 </svg>
