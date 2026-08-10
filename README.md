@@ -2,7 +2,7 @@
 
 ## Alan Doyle Costa Ribeiro
 
-Formado em analise e desenvolvimento de sistemas, atualmente trabalhando na NITTRANS como Chefe de Núcleo de Apoio Administrativo, passo o tempo livre construindo projetos pequenos como foco em resolução de problemas reais: simulador de estrutura de dados pra estudar pra prova, app pra não perder prazo de trabalho, otimizador de imagem que roda direto no browser, automação de tarefas.
+Formado em Analise e Desenvolvimento de Sistemas, atualmente trabalhando na NITTRANS como Chefe de Núcleo de Apoio Administrativo, passo o tempo livre construindo projetos pequenos como foco em resolução de problemas reais: simulador de estrutura de dados pra estudar pra prova, app pra não perder prazo de trabalho, otimizador de imagem que roda direto no browser, automação de tarefas.
 
 ### Stack
 
