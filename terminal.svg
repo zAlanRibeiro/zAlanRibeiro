@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Terminal de Alan Doyle Costa Ribeiro</title>
+  <desc id="d">Um terminal animado que digita whoami, cat stack.txt e ls projetos/, mostrando nome, tecnologias e projetos.</desc>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 16px; }
+    .cmd  { fill: #e6edf3; }
+    .out  { fill: #8b949e; }
+    .name { fill: #58a6ff; }
+    .pr   { fill: #3fb950; }
+    .bar  { fill: #8b949e; font-size: 13px; }
+
+    .cover { fill: #0d1117; }
+    .cur   { fill: #58a6ff; }
+
+    .slide  { animation-duration: 15s; animation-iteration-count: infinite; animation-timing-function: linear; }
+    .reveal { animation-duration: 15s; animation-iteration-count: infinite; animation-timing-function: linear; }
+    .win    { animation-duration: 15s; animation-iteration-count: infinite; animation-timing-function: linear; }
+    .blink  { animation: blink 1.06s steps(2, jump-none) infinite; }
+
+    @keyframes blink { 0% { opacity: 1 } 50% { opacity: 0 } 100% { opacity: 1 } }
+
+    /* linha 1: whoami (6 caracteres) */
+    @keyframes s1 {
+      0%     { transform: translateX(0) }
+      2.67%  { transform: translateX(0); animation-timing-function: steps(6, end) }
+      6.67%  { transform: translateX(57.6px) }
+      93%    { transform: translateX(57.6px) }
+      93.1%  { transform: translateX(0) }
+      100%   { transform: translateX(0) }
+    }
+    /* linha 3: cat stack.txt (13 caracteres) */
+    @keyframes s3 {
+      0%     { transform: translateX(0) }
+      13.33% { transform: translateX(0); animation-timing-function: steps(13, end) }
+      22%    { transform: translateX(124.8px) }
+      93%    { transform: translateX(124.8px) }
+      93.1%  { transform: translateX(0) }
+      100%   { transform: translateX(0) }
+    }
+    /* linha 5: ls projetos/ (12 caracteres) */
+    @keyframes s5 {
+      0%     { transform: translateX(0) }
+      28.67% { transform: translateX(0); animation-timing-function: steps(12, end) }
+      36.67% { transform: translateX(115.2px) }
+      93%    { transform: translateX(115.2px) }
+      93.1%  { transform: translateX(0) }
+      100%   { transform: translateX(0) }
+    }
+
+    /* prompts aparecem junto com a linha */
+    @keyframes p1 { 0%, 2.5% { opacity: 0 } 2.6%, 93% { opacity: 1 } 93.1%, 100% { opacity: 0 } }
+    @keyframes p3 { 0%, 13.1% { opacity: 0 } 13.2%, 93% { opacity: 1 } 93.1%, 100% { opacity: 0 } }
+    @keyframes p5 { 0%, 28.5% { opacity: 0 } 28.6%, 93% { opacity: 1 } 93.1%, 100% { opacity: 0 } }
+    @keyframes p7 { 0%, 39.9% { opacity: 0 } 40%, 93% { opacity: 1 } 93.1%, 100% { opacity: 0 } }
+
+    /* saidas surgem depois do comando terminar */
+    @keyframes o2 { 0%, 8.6% { opacity: 0 } 8.7%, 93% { opacity: 1 } 93.1%, 100% { opacity: 0 } }
+    @keyframes o4 { 0%, 23.9% { opacity: 0 } 24%, 93% { opacity: 1 } 93.1%, 100% { opacity: 0 } }
+    @keyframes o6 { 0%, 38.6% { opacity: 0 } 38.7%, 93% { opacity: 1 } 93.1%, 100% { opacity: 0 } }
+
+    /* janela de vida de cada cursor */
+    @keyframes w1 { 0%, 2.5% { opacity: 0 } 2.6%, 8.6% { opacity: 1 } 8.7%, 100% { opacity: 0 } }
+    @keyframes w3 { 0%, 13.1% { opacity: 0 } 13.2%, 23.9% { opacity: 1 } 24%, 100% { opacity: 0 } }
+    @keyframes w5 { 0%, 28.5% { opacity: 0 } 28.6%, 38.6% { opacity: 1 } 38.7%, 100% { opacity: 0 } }
+    @keyframes w7 { 0%, 39.9% { opacity: 0 } 40%, 93% { opacity: 1 } 93.1%, 100% { opacity: 0 } }
+
+    .s1 { animation-name: s1 } .s3 { animation-name: s3 } .s5 { animation-name: s5 }
+    .p1 { animation-name: p1 } .p3 { animation-name: p3 } .p5 { animation-name: p5 } .p7 { animation-name: p7 }
+    .o2 { animation-name: o2 } .o4 { animation-name: o4 } .o6 { animation-name: o6 }
+    .w1 { animation-name: w1 } .w3 { animation-name: w3 } .w5 { animation-name: w5 } .w7 { animation-name: w7 }
+
+    @media (prefers-reduced-motion: reduce) {
+      .slide, .reveal, .win, .blink { animation: none }
+      .slide { transform: translateX(600px) }
+      .win   { opacity: 0 }
+    }
+  </style>
+
+  <!-- moldura -->
+  <rect x="0.5" y="0.5" width="759" height="319" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <path d="M0.5 10.5a10 10 0 0 1 10-10h739a10 10 0 0 1 10 10V36H0.5Z" fill="#161b22"/>
+  <line x1="0.5" y1="36" x2="759.5" y2="36" stroke="#30363d"/>
+  <circle cx="24" cy="18" r="5.5" fill="#ff5f57"/>
+  <circle cx="44" cy="18" r="5.5" fill="#febc2e"/>
+  <circle cx="64" cy="18" r="5.5" fill="#28c840"/>
+  <text class="mono bar" x="380" y="23" text-anchor="middle">alan@github: ~</text>
+
+  <!-- linha 1 -->
+  <text class="mono pr reveal p1" x="26" y="76">$</text>
+  <text class="mono cmd" x="45.2" y="76" textLength="57.6" lengthAdjust="spacing">whoami</text>
+  <g class="slide s1">
+    <rect class="cover" x="45.2" y="58" width="715" height="26"/>
+    <g class="win w1"><rect class="cur blink" x="45.2" y="60" width="9.6" height="20"/></g>
+  </g>
+
+  <!-- saida 1 -->
+  <text class="mono name reveal o2" x="26" y="108" textLength="230.4" lengthAdjust="spacing">Alan Doyle Costa Ribeiro</text>
+
+  <!-- linha 2 -->
+  <text class="mono pr reveal p3" x="26" y="148">$</text>
+  <text class="mono cmd" x="45.2" y="148" textLength="124.8" lengthAdjust="spacing">cat stack.txt</text>
+  <g class="slide s3">
+    <rect class="cover" x="45.2" y="130" width="715" height="26"/>
+    <g class="win w3"><rect class="cur blink" x="45.2" y="132" width="9.6" height="20"/></g>
+  </g>
+
+  <!-- saida 2 -->
+  <text class="mono out reveal o4" x="26" y="180" textLength="384" lengthAdjust="spacing">Python · TypeScript · React · JavaScript</text>
+
+  <!-- linha 3 -->
+  <text class="mono pr reveal p5" x="26" y="220">$</text>
+  <text class="mono cmd" x="45.2" y="220" textLength="115.2" lengthAdjust="spacing">ls projetos/</text>
+  <g class="slide s5">
+    <rect class="cover" x="45.2" y="202" width="715" height="26"/>
+    <g class="win w5"><rect class="cur blink" x="45.2" y="204" width="9.6" height="20"/></g>
+  </g>
+
+  <!-- saida 3 -->
+  <text class="mono out reveal o6" x="26" y="252" textLength="355.2" lengthAdjust="spacing">ProjetosNITTRANS  JogoTransito  Studo</text>
+
+  <!-- prompt ocioso -->
+  <text class="mono pr reveal p7" x="26" y="292">$</text>
+  <g class="win w7"><rect class="cur blink" x="45.2" y="276" width="9.6" height="20"/></g>
+</svg>

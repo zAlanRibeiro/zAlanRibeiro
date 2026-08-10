@@ -1,3 +1,5 @@
+![Terminal digitando whoami, cat stack.txt e ls projetos/](terminal.svg)
+
 ## Alan Doyle Costa Ribeiro
 
 Estudo analise e desenvolvimento de sistemas e passo o tempo livre construindo coisas pequenas que resolvem problemas reais: simulador de estrutura de dados pra estudar pra prova, app pra não perder prazo de trabalho, otimizador de imagem que roda direto no browser.
