@@ -38,4 +38,4 @@ A maior parte do que está aqui nasceu de aula ou de curiosidade. Alguns viraram
 ### Contato
 
 [![Email](https://img.shields.io/badge/alandoyle1903@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:alandoyle1903@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/alan-doyle-costa-ribeiro)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alan-doyle-costa-ribeiro-b9a073282)
