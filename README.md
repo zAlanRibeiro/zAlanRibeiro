@@ -1,6 +1,6 @@
 ## Alan Doyle Costa Ribeiro
 
-Estudo desenvolvimento de software e passo o tempo livre construindo coisas pequenas que resolvem problemas reais: simulador de estrutura de dados pra estudar pra prova, app pra não perder prazo de trabalho, otimizador de imagem que roda direto no browser.
+Estudo analise e desenvolvimento de sistemas e passo o tempo livre construindo coisas pequenas que resolvem problemas reais: simulador de estrutura de dados pra estudar pra prova, app pra não perder prazo de trabalho, otimizador de imagem que roda direto no browser.
 
 A maior parte do que está aqui nasceu de aula ou de curiosidade. Alguns viraram projeto de verdade.
 
