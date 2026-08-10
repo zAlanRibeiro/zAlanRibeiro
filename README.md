@@ -24,6 +24,7 @@ A maior parte do que está aqui nasceu de aula ou de curiosidade. Alguns viraram
 | Repositório | O que é | Stack |
 | --- | --- | --- |
 | **[ProjetosNITTRANS](https://github.com/zAlanRibeiro/ProjetosNITTRANS)** | Hub de ferramentas desktop pra automatizar processo administrativo da NITTRANS: tarjar PDF, cruzar multas de DETRAN e RENAINF, geocodificar endereço, gerar estatística do SEI | Python |
+| **[JogoTransito](https://zalanribeiro.github.io/JogoTransito/)** | Jogo educativo de travessia segura, também pra NITTRANS: atravessar Niterói respeitando o semáforo até chegar na praia. Tem teste unitário e e2e rodando no CI | React |
 | **[Studo](https://github.com/zAlanRibeiro/Studo)** | Organizador de vida acadêmica: matérias, prazos e notas num lugar só | TypeScript |
 | **[DataStructs](https://zalanribeiro.github.io/DataStructs/)** | Simulador visual de estruturas de dados. Dá pra empilhar, enfileirar e ver o que acontece | JavaScript |
 | **[CentralMonitoramento](https://central-monitoramento.vercel.app)** | Painel de monitoramento em tempo real | JavaScript |
